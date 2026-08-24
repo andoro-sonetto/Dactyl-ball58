@@ -1,0 +1,6 @@
+if SHIELD_DACTYL_BALL58
+
+config ZMK_KEYBOARD_NAME
+    default "Dactyl Ball58"
+
+endif
