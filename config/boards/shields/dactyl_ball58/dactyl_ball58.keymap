@@ -1,0 +1,24 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                // Row0（数字行）
+                &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6
+                // Row1
+                &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y
+                // Row2
+                &kp A   &kp S   &kp D   &kp F   &kp G   &kp H
+                // Row3
+                &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N
+                // Row4（親指など）
+                &kp LCTRL &kp LSHFT &kp SPACE &kp ENTER &kp BSPC &kp LGUI
+            >;
+        };
+    };
+};
